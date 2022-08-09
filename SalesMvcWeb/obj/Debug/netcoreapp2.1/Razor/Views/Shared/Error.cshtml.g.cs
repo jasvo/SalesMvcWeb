@@ -13,7 +13,6 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-    using SalesMvcWeb.Models.ViewModels;
 #line 1 "C:\Users\jasvo\source\repos\SalesMvcWeb\SalesMvcWeb\Views\_ViewImports.cshtml"
 using SalesMvcWeb;
 
@@ -21,6 +20,7 @@ using SalesMvcWeb;
 #line hidden
 #line 2 "C:\Users\jasvo\source\repos\SalesMvcWeb\SalesMvcWeb\Views\_ViewImports.cshtml"
 using SalesMvcWeb.Models;
+    using SalesMvcWeb.Models.ViewModels;
 
 #line default
 #line hidden
