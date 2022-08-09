@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SalesMvcWeb.Data;
+using SalesMvcWeb.Services;
 
 namespace SalesMvcWeb
 {
@@ -41,7 +42,7 @@ namespace SalesMvcWeb
                     builder.MigrationsAssembly("SalesMvcWeb")));
 
             services.AddScoped<SeedingService>();
-
+            services.AddScoped<SellerService>();
             /* services.AddDbContext<SalesMvcWebContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("SalesMvcWebContext")));*/
         }
